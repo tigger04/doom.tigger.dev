@@ -1,0 +1,15 @@
+* Origin story
+** Morph-e-lisp
+Many years ago, I was going about my business on some reddit forum or whatnot looking for productivity tips. I stumbled upon the charismatic Morpheus, or was it Morph-e-lisp. He offered me the purple pill and 1000s of hours later I was in *deep*. I created the perfect IDE, text editor, graphing tool, anything-you-can-think-of swiss-army knife. Perfect, at least, insofar as it met my own needs. I call it *tug/emacs*.
+
+** If you really love something, you must set it free
+It has served me well these years, but it needs some performance tuning, housekeeping, and the truth is I just can't justify the effort any longer when there are such stellar OSS projects like Doom and Spacemacs having so many more eyes and loving hands on them.
+
+* WTF
+This next generation of my emacs config has the following objectives:
+- maintenance to be as light touch as possible
+- it should be snappy, performing well enough to avoid reaching for VS Code or *gasp* Stickies when I need to get something down in a pinch
+- it needs to run well on MacOS and Linux
+- it should aspire to be as feature-rich as tug/emacs
+
+A work-in-progress, and always will be. Feel free to take all or part of it if you find it useful. Any feedback most welcome.
