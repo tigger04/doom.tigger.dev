@@ -88,6 +88,26 @@
 (setq confirm-kill-emacs nil)
 
 
+;; ;;;;;;;; GPG FILES HANGING ON SAVE ;;;;;;;;
+
+;; (require 'epa-file)
+;; (epa-file-enable)
+
+;; ;; (use-package auth-source-pass
+;; ;;   :ensure t)
+
+;; (use-package auth-source
+;;   :config
+;;   (setq auth-sources '("~/.ssh/.authinfo.gpg"))
+;;   (setq auth-source-debug t))
+;;   (fset 'epg-wait-for-source 'ignore)
+
+;; this used to work :(
+
+;; ;;;;;;;; END GPG FILES HANGING ON SAVE ;;;;;;;;
+
+
+
 ;;;;;;;; MACOS ONLY CONFIG ;;;;;;;;
 (if (and
      (eq system-type 'darwin)

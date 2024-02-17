@@ -16,7 +16,7 @@ A work-in-progress, and always will be. Feel free to take all or part of it if y
 
 * TODO
 There are a few "solved problems" from tug/emacs worthy of porting in to this project
-- [ ] auto-hide on initial launch on MacOS (simulated server behaviour)
+- [-] auto-hide on initial launch on MacOS (simulated server behaviour)
 - [ ] isolate package config technique /(avoids one small package error in init borking the whole emacs setup - this thingy has earned its weight in gold for me over the years)/
 - [ ] fix gpg hanging the whole system on save on newer versions of Emacs and GnuPG
 - [ ] Evil / Emacs insert mode hybrid key binds (just the snappier ones e.g. C-k for kill-line is infinitely kinder on the fingers than the vim equivalent
