@@ -6,10 +6,28 @@ Many years ago, I was going about my business on some reddit forum or whatnot lo
 It has served me well these years, but it needs some performance tuning, housekeeping, and the truth is I just can't justify the effort any longer when there are such stellar OSS projects like Doom and Spacemacs having so many more eyes and loving hands on them.
 
 * WTF
-This next generation of my emacs config has the following objectives:
+This next iteration of my personal emacs config has the following objectives:
 - maintenance to be as light touch as possible
 - it should be snappy, performing well enough to avoid reaching for VS Code or *gasp* Stickies when I need to get something down in a pinch
 - it needs to run well on MacOS and Linux
 - it should aspire to be as feature-rich as tug/emacs
 
 A work-in-progress, and always will be. Feel free to take all or part of it if you find it useful. Any feedback most welcome.
+
+* TODO
+There are a few "solved problems" from tug/emacs worthy of porting in to this project
+- [ ] auto-hide on initial launch on MacOS (simulated server behaviour)
+- [ ] isolate package config technique /(avoids one small package error in init borking the whole emacs setup - this thingy has earned its weight in gold for me over the years)/
+- [ ] fix gpg hanging the whole system on save on newer versions of Emacs and GnuPG
+- [ ] Evil / Emacs insert mode hybrid key binds (just the snappier ones e.g. C-k for kill-line is infinitely kinder on the fingers than the vim equivalent
+- [ ] Evil-surround
+- [ ] beautify and prettify
+- [ ] ledger-mode
+- [ ] PlantUML markup for inline / export diagrams
+- [ ] Dynamic font/window size based on screen size / DPI
+- [ ] aggressive-indent-mode
+- [ ] Orgmode save wrapper - on manual save, persist all org buffers and generate agenda in bg
+- [ ] pcre2el for perl regular expressions
+- [ ] language modes, add as we go probs (rust, swift, typescript, yaml, go, ..)
+
+There will probably be a few more, and hey, maybe we'll find one or two of the resource hogs that plagued *tug/emacs* along the way!

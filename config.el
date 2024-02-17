@@ -41,7 +41,7 @@
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
-(setq display-line-numbers-type 'relative)
+(setq display-line-numbers-type 'none)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -89,7 +89,11 @@
 
 
 ;;;;;;;; MACOS ONLY CONFIG ;;;;;;;;
-(if (eq system-type 'darwin)
+(if (and
+     (eq system-type 'darwin)
+     (not (boundp 'tigger.dev/config-loaded)))
     (shell-command "osascript -e 'tell application \"System Events\" to set visible of process \"Emacs\" to false'")
   )
+
+(setq tigger.dev/config-loaded t)
 ;;;;;;;; END MACOS ONLY CONFIG ;;;;;;;;
