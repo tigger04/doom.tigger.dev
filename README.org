@@ -24,17 +24,17 @@ First you'll need [[https://github.com/doomemacs/doomemacs][Doom Emacs]], follow
 * TODO
 There are a few "solved problems" from tug/emacs worthy of porting in to this project
 - [-] auto-hide on initial launch on MacOS (simulated server behaviour)
-- [ ] isolate package config technique /(avoids one small package error in init borking the whole emacs setup - this thingy has earned its weight in gold for me over the years)/
-- [ ] fix gpg hanging the whole system on save on newer versions of Emacs and GnuPG
-- [ ] Evil / Emacs insert mode hybrid key binds (just the snappier ones e.g. C-k for kill-line is infinitely kinder on the fingers than the vim equivalent
-- [ ] Evil-surround
-- [ ] beautify and prettify
-- [ ] ledger-mode
-- [ ] PlantUML markup for inline / export diagrams
-- [ ] Dynamic font/window size based on screen size / DPI
-- [ ] aggressive-indent-mode
-- [ ] Orgmode save wrapper - on manual save, persist all org buffers and generate agenda in bg
-- [ ] pcre2el for perl regular expressions
-- [ ] language modes, add as we go probs (rust, swift, typescript, yaml, go, ..)
+- TODO isolate package config technique /(avoids one small package error in init borking the whole emacs setup - this thingy has earned its weight in gold for me over the years)/
+- TODO fix gpg hanging the whole system on save on newer versions of Emacs and GnuPG
+- TODO Evil / Emacs insert mode hybrid key binds (just the snappier ones e.g. C-k for kill-line is infinitely kinder on the fingers than the vim equivalent
+- TODO Evil-surround
+- TODO beautify and prettify
+- TODO ledger-mode
+- TODO PlantUML markup for inline / export diagrams
+- TODO Dynamic font/window size based on screen size / DPI
+- TODO aggressive-indent-mode
+- TODO Orgmode save wrapper - on manual save, persist all org buffers and generate agenda in bg
+- TODO pcre2el for perl regular expressions
+- TODO language modes, add as we go probs (rust, swift, typescript, yaml, go, ..)
 
 There will probably be a few more, and hey, maybe we'll find one or two of the resource hogs that plagued *tug/emacs* along the way!
