@@ -112,7 +112,8 @@
 (if (and
      (eq system-type 'darwin)
      (not (boundp 'tigger.dev/config-loaded)))
-    (shell-command "osascript -e 'tell application \"System Events\" to set visible of process \"Emacs\" to false'")
+;    (shell-command "osascript -e 'tell application \"System Events\" to set visible of process \"Emacs\" to false'")
+     (message "Darwin detected")
   )
 
 (setq tigger.dev/config-loaded t)
