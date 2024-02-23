@@ -118,3 +118,14 @@
 
 (setq tigger.dev/config-loaded t)
 ;;;;;;;; END MACOS ONLY CONFIG ;;;;;;;;
+
+
+;;;;;;; SET INITIAL WINDOW SIZE ;;;;;;;
+(if (display-graphic-p)
+    (progn
+      (setq initial-frame-alist '(
+                                  (width . 106) ; in characters
+                                  (height . 45))) ; in lines
+      (setq default-frame-alist '(
+                                  (width . 106)
+                                  (height . 45)))))
